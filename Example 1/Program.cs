@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Example_1
 {
@@ -12,14 +9,14 @@ namespace Example_1
         {
             var workItemRepository = new WorkItemRepository();
             WorkItem.Init(workItemRepository);
-
-            string command = null, title = null, desc = null;
-            int id = 0;
+            string title = null, desc = null;
+            string command;
+            int id;
             try
             {
                 command = args[0].ToLower();
                 id = int.Parse(args[1]);
-                
+
                 if (args.Count() > 2)
                 {
                     title = args[2];
