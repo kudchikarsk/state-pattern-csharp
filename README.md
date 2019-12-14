@@ -1,6 +1,6 @@
 # State Pattern In C# Demo
 
-This solution is a part of my blog post [State Design Pattern In C#](https://kudchikarsk.com/state-pattern-csharp/)
+This solution is a part of my blog post [State Design Pattern In C#](https://codewithshadman.com/state-pattern-csharp/)
 
 
 Solution contains various Windows Forms App / Console App Project for different State pattern concepts in C#.
